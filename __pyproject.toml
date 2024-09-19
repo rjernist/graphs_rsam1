@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "graphs_<username>"
+name = "graphs_rsam1"
 version = "0.1.0"
 description = "A package implementing graph algorithms including Dijkstra's algorithm."
 
