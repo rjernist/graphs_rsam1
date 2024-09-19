@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+name = "graphs_rsam1"
+version = "0.1.0"
+description = "A package for graph algorithms including Dijkstra's algorithm."
+authors = ["RJ Sam rsam1@msudenver.edu"]
+license = "MIT"
