@@ -1,12 +1,14 @@
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
-
-[project]
-name = "graphs_rsam1"
+[tool.poetry]
+name = "graphs_<username>"
 version = "0.1.0"
-description = "A Python package for Dijkstra's algorithm"
-dependencies = []
+description = "A package implementing graph algorithms including Dijkstra's algorithm."
 
-[tool.setuptools.packages.find]
-where = ["src"]
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
